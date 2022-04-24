@@ -9,45 +9,75 @@
 
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+        <link href="../styles/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
         <title>About Me</title>
-        <h1>Jeanpierre Rea</h1>
     </head>
 
+    <body>
+
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
           <a class="navbar-brand" href="../index.html">@jeanpierrerea</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+            <div class="navbar-nav ms-auto">
               <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
               <a class="nav-link" href="about.html">About Me</a>
               <a class="nav-link" href="../skills/skills.html">Skills</a>
-              <a class="nav-link" href="../projects/projects.html">Projects</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="../projects/projects.html" id="navbarDropdownMenuLink" role="button" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="../../projects/1/1.html">TFT API Analyzer</a></li>
+                  <li><a class="dropdown-item" href="../../projects/2/2.html">Optical Image Recognition and Analysis</a></li>
+                  <li><a class="dropdown-item disabled" href="#">In construction</a></li>
+                </ul>
+              </li>
               <a class="nav-link" href="../goals/goals.html">Goals</a>
               <a class="nav-link" href="../contact/contact.html">Contact</a>
-              <a class="nav-link disabled">In Construction</a>
             </div>
           </div>
         </div>
       </nav>
 
-    <body>
-        <h1>About Me!</h1>
 
-        <p>Hello, world!</p>
+      <section class="container p-5">
+        <div class="row g-5">
+          <div class="col-md-9">
+            <h1>About Me</h1>
+    
+            <p>Hey there, nice to meet you! My name is Jeanpierre Rea. I am currently a Senior at NJIT
+              expected to graduate in May 2022. I am pursuing a B.S. in Information Technology, with a Networking and Security specialization. Some of my
+              personal hobbies are exercising, making coffee, and playing video games. I also enjoy long walks and swimming. Thank you for checking out my personal website.
+              Any business inquiries, please feel free to contact me on the <a class="link" href="../contact/contact.html">contact</a> page.   
+    
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laborum autem perspiciatis perferendis deserunt ipsa beatae sit alias quod aut, sint provident voluptatem vero aperiam voluptate ea blanditiis enim laudantium optio molestias libero earum expedita reiciendis! Ipsam, labore quasi in doloribus vero expedita, nihil fugit similique tempora quia adipisci molestiae est exercitationem recusandae asperiores sunt debitis nam, doloremque quisquam? Quam dolor voluptate quidem similique neque dolore veritatis vitae ea, ab, consequuntur repellendus officiis! Aperiam nemo consectetur ipsa quis, minus assumenda ducimus culpa delectus velit? Fugiat, nihil. Similique magni facere corrupti voluptas perspiciatis aut illo provident! Aliquid aut corporis voluptates ipsum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel autem expedita illum dolore distinctio accusamus nesciunt soluta nulla saepe officiis dignissimos itaque libero quisquam consequatur, voluptatibus perferendis pariatur id! Ipsam expedita neque beatae laborum harum placeat hic facilis, rem autem similique iste maxime facere officiis voluptates eligendi explicabo quaerat possimus! Fugiat earum corrupti incidunt nesciunt inventore quas voluptas eaque dolores saepe rem! Officia architecto corrupti neque maxime exercitationem molestiae ducimus modi iure, dolores unde natus ut autem accusamus illum quam odit rerum deserunt at error quasi, totam doloremque minima. Molestiae, repudiandae voluptatum cupiditate illum sint ab eos ducimus id reprehenderit?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum doloremque voluptate placeat veniam, adipisci enim dicta accusantium officiis! At doloremque sed provident iure quo praesentium velit excepturi aliquid sit aliquam. Quas blanditiis eos voluptatem cum sint dolor cupiditate, quis asperiores animi ea consequuntur nihil, perspiciatis eum sequi aperiam eius. Dolorem excepturi reiciendis culpa repellendus dolor, quia similique ipsam aliquid exercitationem nihil. Nam blanditiis voluptas officia quas. Ad saepe cum quam labore quod nihil et voluptas odit consequuntur, adipisci sapiente beatae laudantium neque accusantium veritatis pariatur iure quia accusamus quos. Vero nobis delectus soluta vel eius autem suscipit commodi placeat ipsa.</p>
+          </div>
+          <div class="col-md">
+            <p>insert pic</p>
+          </div>
+        </div>
+      </section>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
+      <!-- Footer -->
+      
+      <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+          <p class="lead">Copyright &copy; 2022 Jeanpierre Rea | All rights reserved</p>
+          <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+          </a>
+        </div>
+      </footer>
 
-        <!-- Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <!-- Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>

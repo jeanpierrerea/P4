@@ -9,34 +9,43 @@
 
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+        <link href="../styles/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
         <title>Goals</title>
-        <h1>Jeanpierre Rea</h1>
     </head>
 
+    <body>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
           <a class="navbar-brand" href="../index.html">@jeanpierrerea</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+            <div class="navbar-nav ms-auto">
               <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
               
               <a class="nav-link" href="../about/about.html">About Me</a>
               <a class="nav-link" href="../skills/skills.html">Skills</a>
-              <a class="nav-link" href="../projects/projects.html">Projects</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="../projects/projects.html" id="navbarDropdownMenuLink" role="button" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="../../projects/1/1.html">TFT API Analyzer</a></li>
+                  <li><a class="dropdown-item" href="../../projects/2/2.html">Optical Image Recognition and Analysis</a></li>
+                  <li><a class="dropdown-item disabled" href="#">In construction</a></li>
+                </ul>
+              </li>
               <a class="nav-link" href="goals.html">Goals</a>
               <a class="nav-link" href="../contact/contact.html">Contact</a>
-              <a class="nav-link disabled">In Construction</a>
             </div>
           </div>
         </div>
       </nav>
 
-    <body>
+      <div class="container">
         <h1>Goals</h1>
 
         <p>Hello, world!</p>
@@ -47,8 +56,20 @@
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         
+      </div>
 
-        <!-- Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <!-- Footer -->
+      
+      <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+          <p class="lead">Copyright &copy; 2022 Jeanpierre Rea | All rights reserved</p>
+          <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+          </a>
+        </div>
+      </footer>
+
+      <!-- Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
